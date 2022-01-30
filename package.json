@@ -1,0 +1,24 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "An API for social network",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scottl5/Social-Network-API.git"
+  },
+  "author": "Scott LaBelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scottl5/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Scottl5/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  }
+}
