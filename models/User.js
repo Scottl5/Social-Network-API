@@ -4,7 +4,7 @@ const userSchema = new Schema(
   {
     userId: {
       type: Schema.Types.ObjectId,
-      default: () => new Types.ObjectIdId(),
+      default: () => new Types.ObjectId(),
     },
     userName: {
       type: String,
